@@ -55,7 +55,7 @@
 ## 📫 联系方式
 
 - GitHub: [@P.07-xy](https://github.com/P.07-xy)
-- Email: [待补充]
+- Email: 2811797759@qq.com
 
 ---
 
