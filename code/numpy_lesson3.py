@@ -1,0 +1,16 @@
+import numpy as np
+A=np.array([1,1,1])
+B=np.array([2,2,2])
+C=np.vstack((A,B))
+print("上下合并:",C)
+print("形状:",C.shape)
+D=np.hstack((A,B))
+print("左右合并:",D)
+print("形状:",D.shape)
+E=np.concatenate((A,B),axis=0)
+print("concat axis=0:",E)
+F=np.array([[3,3,3],[4,4,4]])
+G=np.array([[5,5,5],[6,6,6]])
+print("二维 横合并:\n",np.concatenate((F,G),axis=1))
+print("二维 纵合并:\n",np.concatenate((F,G),axis=0))
+
